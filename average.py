@@ -1,4 +1,4 @@
-file = open("names and marks", "r")
+file = open("names_and_marks", "r")
 all_marks = 0
 counter = 0
 for line in file:
@@ -7,4 +7,3 @@ for line in file:
     counter += 1
 print(all_marks, counter)
 print(float(all_marks / counter))
-    
