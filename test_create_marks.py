@@ -13,4 +13,4 @@ def test_average_value_calculation():
         mark = int(line.split(":")[-1])
         all_marks += mark
         counter += 1
-    assert float(all_marks / counter) == 3.3333333333333335
+    assert round(float(all_marks / counter), 2) == 3.33
