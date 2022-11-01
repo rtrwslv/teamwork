@@ -1,3 +1,6 @@
+import create_marks
+
+create_marks.create_marks()
 file = open("names_and_marks", "r")
 all_marks = 0
 counter = 0
